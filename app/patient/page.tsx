@@ -1,5 +1,3 @@
-import { PatientDashboard } from "@/components/patient-dashboard";
-
-export default function PatientPage() {
-  return <PatientDashboard />;
+export default function LegacyPatientPage() {
+  return null;
 }

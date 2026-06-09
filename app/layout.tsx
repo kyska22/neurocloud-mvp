@@ -3,24 +3,17 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "NeuroApoyo | Seguimiento neuropsicológico",
+    default: "NeuroApoyo",
     template: "%s | NeuroApoyo",
   },
-  description:
-    "Plataforma de apoyo para organizar evaluaciones, pacientes y seguimiento diario.",
-  keywords: [
-    "neuropsicología",
-    "evaluación neuropsicológica",
-    "seguimiento de pacientes",
-    "software para psicólogos",
-  ],
+  description: "Clinical workflow support for neuropsychology practices.",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es">
+    <html lang="pt" suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );
